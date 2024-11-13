@@ -3,7 +3,7 @@
 
 ## Description
 
-This script ranks documents for relevance to queries using the FLAN-T5 model. It processes two sets of queries and documents and saves the relevance scores in two separate output files. The script is computationally intensive and can take 4 hours or more to complete. Note that 2 separate files are provided for each prompt. The files were run in cola, we recommend that, but py files are provided. 
+This script ranks documents for relevance to queries using the FLAN-T5 model. It processes two sets of queries and documents and saves the relevance scores in two separate output files. The script is computationally intensive and can take 4 hours or more to complete. Note that 2 separate files are provided for each prompt. The files were run in colab, we recommend that, but py files are provided. 
 
 ## Requirements
 
