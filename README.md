@@ -40,7 +40,7 @@ This script ranks documents for relevance to queries using the FLAN-T5 model. It
      - `generated_scores_1.tsv` – Relevance scores for `topics_1.json` using `result_bi_1.tsv`.
      - `generated_scores_2.tsv` – Relevance scores for `topics_2.json` using `result_bi_2.tsv`.
    - **File Conversion**:
-     - For evaluation, convert the output files to `prompt1_1.tsv` and `prompt2_2.tsv` as required by the evaluation script. This conversation is handled by a function in the provided script. 
+     - For evaluation, convert the output files to `prompt1_1.tsv` and `prompt2_2.tsv` as required by the evaluation script. This conversation is handled by a function in the provided script called format_to_trec. 
 
 ## Notes
 
